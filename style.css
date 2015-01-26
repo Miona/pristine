@@ -1,0 +1,527 @@
+/*
+Theme Name: pristine
+Theme URI: https://github.com/psahalot/_ib
+Author: IdeaBox Themes
+Author URI: http://ideaboxthemes.com/
+Description: Hi, I am the ultra minimal starter theme pristine, ready for your next awesome WordPress project! I am the most seamless and minimalistic integration of Twitter Bootstrap Framework into the _s starter theme from Automattic, the guys behind WordPress.
+Version: 1.0
+License: GNU General Public License V2 or Later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html 
+Text Domain: pristine
+Tags: 
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+This theme is the most seamless and minimalistic integration of Twitter Bootstrap Framework into
+the _s starter theme from Automattic, the guys behind WordPress.
+
+This theme has been derived from _tk https://github.com/Themekraft/_tk which is licensed under GPL. 
+
+_s (or Underscores) http://underscores.me/, (C) 2012-2013 Automattic, Inc.
+
+Twitter Bootstrap
+
+
+*/
+
+/* Import the necessary Bootstrap WP CSS additions */
+@import url( includes/css/bootstrap-wp.css );
+
+
+
+/* My Minimal WordPress Styling comes here */
+
+/* This is a small security for too long strings titles */
+body {
+	
+}
+/*added css */
+header{
+    background-color: #c4e3f3;
+    
+}
+
+.slider img{
+    width: 100%;
+}
+.portfolio-title{
+    text-align: center;
+    background-color: #c4e3f3;
+    height:50%;
+    padding:1%;
+    
+}
+.featured-image img{
+    width: 67%;
+    
+}
+.services-title{
+    background-color: #c4e3f3;
+    padding:2% 0;
+    text-align: center;
+}
+.service-area{
+    text-align: center;
+    background-color: white;
+}
+.services{
+    background-color: white;
+}
+.action{
+   // background-color: #31708f;
+    color:black;
+    text-align: center;
+    padding:4% 0;
+}
+
+/*works*/
+#works {
+    padding-bottom: 0px;
+}
+/*.section {
+    background-color: #FAFAFA;
+}*/
+.section-heading {
+    margin-bottom: 50px;
+}
+.work-item-filters {
+    text-align: center;
+    margin-bottom: 0px;
+    background-color: #E2E2E2;
+}
+.work-item-filters li:first-child {
+    margin-left: 0px;
+}
+
+.work-item-filters li a.active {
+    text-decoration: none;
+    outline: medium none;
+    background-color: #FFAE3F;
+    color: #FFF;
+}
+.work-item-filters li a {
+    display: block;
+    padding: 15px;
+	}
+.work-item-filters li a {
+    color: #9A9A9A;
+    display: block;
+    padding: 15px;
+}
+a:hover, a:focus {
+    color: #FFC472;
+    text-decoration: none;
+}
+.work-item-wrapper {
+    overflow: hidden;
+}
+.work-item-list {
+    margin-bottom: 0px;
+    width: 101%;
+}
+.isotope, .isotope .isotope-item {
+    transition-duration: 0.4s;
+}
+.isotope, .isotope .isotope-item {
+    transition-property: height, width;
+}
+.work-item-list.list-col-4 li {
+    width: 24%;
+}
+.section-heading {
+    background-color: #c4e3f3;
+    padding:2% 0;
+}
+.isotope .isotope-item {
+    transition-property: transform, opacity;
+}
+.isotope, .isotope .isotope-item {
+    transition-duration: 0.4s;
+}
+.isotope, .isotope .isotope-item {
+    transition-property: height, width;
+}
+.work-item-list li {
+    padding: 0px;
+    float: left;
+    overflow: hidden;
+    position: relative;
+}
+.work-item-list li img {
+    transition-property: all;
+    transition-duration: 0.2s;
+    transition-timing-function: linear;
+    max-width: 100%;
+    width: 100%;
+}
+img {
+    border: medium none;
+	
+}
+.work-item-wrap ul li img :hover{
+background-color:blue;
+}
+
+.work-item img {
+height:200px;
+}
+.work-item-list .image-overlay {
+    opacity: 0;
+    transition-property: opacity;
+    transition-duration: 0.2s;
+    transition-timing-function: linear;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 174, 239, 0.9);
+}
+.work-item-list .image-overlay a {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+}
+.work-item-list .image-overlay:hover{
+opacity:1;
+}
+a {
+    color: #FFAE3F;
+}
+.work-item-list .work-item-info {
+    position: absolute;
+    left: 0px;
+    bottom: 50%;
+    margin-bottom: -2.5em;
+    width: 100%;
+    text-align: center;
+    color: #FFF;
+}
+.work-item-list .work-item-info h3 {
+    color: #FFF;
+}
+.section-content h3 {
+    color: #C2C2C2;
+}
+.work-item-list .work-item-info i {
+    opacity: 0.2;
+    font-size: 96px;
+    position: absolute;
+    left: 50%;
+    margin-left: -48px;
+    top: 50%;
+    margin-top: -48px;
+}
+.fa {
+    display: inline-block;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+}
+.section-heading{
+    text-align:center;
+}
+.work-item-wrapper ul li{
+    width:25%;
+}
+
+/* Alignment */
+.alignleft {
+	display: inline;
+	float: left;
+	margin-right: 1.5em;
+}
+.alignright {
+	display: inline;
+	float: right;
+	margin-left: 1.5em;
+}
+.aligncenter {
+	clear: both;
+	display: block;
+	margin: 0 auto;
+}
+
+
+/* Images and wp-captions should always fit and be responsive */
+img {
+	display: inline-block;
+	height: auto;
+	max-width: 100%;
+}
+img[class*="wp-image-"] {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.wp-caption {
+	border: 1px solid #ccc;
+	margin-bottom: 10px;
+	max-width: 100%;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	padding: 0 10px;
+}
+.wp-caption.aligncenter {
+	margin-bottom: 10px;
+}
+.wp-caption img[class*="wp-image-"] {
+	display: block;
+}
+.wp-caption .wp-caption-text {
+	text-align: center;
+	margin-top: 10px;
+}
+
+/* WP Gallery */
+.gallery {
+	margin-bottom: 1.5em;
+}
+.gallery a img {
+	border: none;
+	height: auto;
+	max-width: 90%;
+}
+.gallery dd {
+	margin: 0;
+}
+
+
+/* Make sure embeds and iframes fit their containers */
+embed,
+iframe,
+object {
+	max-width: 100%;
+}
+
+
+/* Text meant only for screen readers */
+.screen-reader-text {
+	clip: rect(1px, 1px, 1px, 1px);
+	position: absolute !important;
+}
+.screen-reader-text:hover,
+.screen-reader-text:active,
+.screen-reader-text:focus {
+	background-color: #f1f1f1;
+	border-radius: 3px;
+	box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+	clip: auto !important;
+	color: #21759b;
+	display: block;
+	font-size: 14px;
+	font-weight: bold;
+	height: auto;
+	left: 5px;
+	line-height: normal;
+	padding: 15px 23px 14px;
+	text-decoration: none;
+	top: 5px;
+	width: auto;
+	z-index: 100000; /* Above WP toolbar */
+}
+
+
+/* Content */
+.main-content-inner {
+	padding-bottom: 1.5em;
+}
+.hentry {
+	margin: 0 0 1.5em;
+}
+
+
+/* Clearing */
+.clear {
+	clear: both;
+}
+
+
+/* Here some needed widget styles
+ * Most widgets are adapted in the file bootstrap-wp.js - and REALLY easy to modify! ;) */
+.widget { margin-bottom: 2em; }
+.widget_nav_menu ul.sub-menu li, .widget_pages ul.children li { padding-left: 15px; }
+
+/* Hiding the search widget's button in widgets. thats just too old-skool. :) but if you want it back, just delete the next line.
+ * Note: you can change the whole appearance of the search_form() function in our searchform.php */
+.widget_search .search-form input[type="submit"] { display: none; }
+
+/* Make sure select elements fit in widgets */
+.widget select {
+	max-width: 100%;
+}
+
+/* Nested comments? They are threaded and nested already, you just need to add your own styling to finalize!
+ * For example with some margin, like the line below ;) Delete, modify, change classes in HTML if you desire another style */
+ .comment .children { margin-left: 1.5em; }
+
+/*
+ == Quick CSS styling tips ==
+
+ You can start off in a rough direction with some minimal styles.
+ See below for some tips. ;)
+
+
+ == Want to have the whole site wrapped? ==
+
+ Just fill the .container class with some background color to have a the whole site "wrapped".
+ This works so easy because every main part is wrapped only once into a container class by bootstrap.
+ Try out by decommenting the next line and go from there.
+
+ .container { background: #f9f9f9; border-right: 1px solid #eee; border-left: 1px solid #eee; }
+
+
+ == Want to wrap just the content and sidebar in Bootstrap style? ==
+
+ That one is a great example to show that some things are much cleaner and easier to do via just adding some HTML classes.
+ In this case, we will add just one CSS class "panel", look for example at the beginning in content.php!
+
+
+ == Infinite Scrolling by Jetpack ==
+ You can enable this cool feature by simply decommenting the lines below and make sure you use the same classes on the right place in your html..
+
+/* Globally hidden elements when Infinite Scroll is supported and in use.
+ * Older / Newer Posts Navigation (the pagination, must always be hidden), Theme Footer only when set to scrolling.. */
+
+/*
+.infinite-scroll .page-links,
+.infinite-scroll.neverending .site-footer {
+	display: none;
+}
+*/
+
+/* When Infinite Scroll has reached its end we need to re-display elements that were hidden (via .neverending) before */
+
+/*
+.infinity-end.neverending .site-footer {
+	display: block;
+}
+*/
+
+/* Hey, if you don't need my comments anymore, just delete me! :)  */
+
+/* Navigation */
+
+.navbar-default{
+    background:none;
+    border:none;
+}
+
+.navbar-collapse{
+    padding:0;
+}
+
+
+.site-navigation-inner{
+    padding: 13px 0;
+    float: right;
+}
+
+.navbar-default .navbar-nav>.active>a, 
+.navbar-default .navbar-nav>.active>a:hover, 
+.navbar-default .navbar-nav>.active>a:focus{
+    background:none;
+   
+}
+
+.navbar-default .navbar-nav>.open>a, 
+.navbar-default .navbar-nav>.open>a:hover, 
+.navbar-default .navbar-nav>.open>a:focus{
+    background:none;
+}
+
+.navbar-default .navbar-nav>li>a{
+}
+
+.dropdown-menu{
+    border-radius:0;
+    padding:0;
+    margin-top:0;
+}
+
+.dropdown-menu li a{
+    padding:10px 20px;
+}
+
+.dropdown-menu li a:hover, .dropdown-menu li a:focus{
+    background:#009cee;
+}
+
+.navbar-toggle{
+    float:none;
+    margin:0;
+    width:25%;
+    border-radius:0;
+    background:#111;
+    border:none;
+}
+
+.navbar-header{
+    text-align:center;
+}
+
+.sr-only{
+    overflow:visible;
+    position:relative;
+}
+
+.navbar-toggle .icon-bar{
+    margin-top:-20px;
+    background-color:#fff !important;
+}
+
+@media (min-width:320px){
+
+    .site-navigation-inner{
+        float:none;
+        padding:13px 0 0;
+    }
+
+    .site-navigation{
+        padding:0;
+    }
+
+    .navbar{
+        min-height:0;
+        margin-bottom:0;
+    }
+
+    .navbar-nav>li>a{
+        padding:10px 20px;
+    }
+
+    .navbar-nav{
+        margin:0;
+        box-shadow:none;
+    }
+
+    .navbar-default .navbar-collapse{
+        border:none;
+        box-shadow:none;
+    }
+
+    .navbar-default a{
+        text-align:center;
+    }
+
+    .navbar-default .navbar-nav .open .dropdown-menu>li>a{
+        color:#fff;
+    }
+
+}
+
+
+@media (min-width:768px){
+
+    .site-navigation-inner{
+        float:right;
+        padding:13px 0;
+    }
+
+    .navbar-default .navbar-nav .open .dropdown-menu>li>a{
+        color:#111;
+    }
+}
