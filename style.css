@@ -52,28 +52,30 @@ header{
     padding:1%;
     
 }
-.featured-image img{
-    width: 67%;
+
     
-}
-.services-title{
+
+.services-title-area{
     background-color: #c4e3f3;
     padding:2% 0;
     text-align: center;
 }
-.service-area{
+/*.services-title{
     text-align: center;
-    background-color: white;
-}
-.services{
+   
+}*/
+.service-area{
     background-color: white;
 }
 .action{
-   // background-color: #31708f;
+ 
     color:black;
     text-align: center;
-    padding:4% 0;
+    padding:1% ;
+    background-color: #31708f;
 }
+
+              
 
 /*works*/
 #works {
@@ -245,7 +247,19 @@ a {
 	display: block;
 	margin: 0 auto;
 }
-
+/* about us */
+.about{
+    border: 1px solid black;
+}
+.about-us_1{
+     //background-color: #31708f;
+    padding: 4% ;
+}
+.about-title-area{
+    background-color: #c4e3f3;
+    padding:2% 0;
+    text-align: center;
+}
 
 /* Images and wp-captions should always fit and be responsive */
 img {

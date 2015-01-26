@@ -45,8 +45,8 @@ get_header(); ?>
                 <h3><strong>Our Services</strong></h3>
                 <p>We develop stupendous themes for our customers according to their requirements.</p>
              </div>
-    </div>         
-            <div class="service-area ">
+         </div>   
+      <div class="service-area ">
              <div class="featured col-md-4" >
                 <h4>Search Engine Optimization</h4>
                <img src="http://creativemisha.com/wp-content/uploads/2014/06/tumblr-17.jpg">
@@ -60,10 +60,10 @@ get_header(); ?>
                 <h4>Search Engine Optimization</h4>
                 <img src="http://creativemisha.com/wp-content/uploads/2014/06/tumblr-17.jpg">
             </div>
+      </div>  
            
-           
+ 
 
-</div>
 </div>
 
 
@@ -196,8 +196,26 @@ get_header(); ?>
     </div>
 		<!-- END WORKS --> 
     
+<!-- ABOUT US BEGINS -->
 
 
-
+    <div class="about-title-area">
+            <div class="about-title">
+                <h3><strong>About Us</strong></h3>
+                <p>Here are a few details about us.We build quality themes.</p>
+             </div>
+         </div>  
+   <div class="about"> 
+    <div class="about-us_1 col-md-6">
+        <h1><strong>BUILDING AMAZING THEMES WITH PASSION SINCE 2014 </strong></h1>
+       
+    </div>
+    <div class="about-us col-md-6">
+        <p><strong> lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum.</strong></p>
+           
+        
+    </div>
+    
+    </div>
 
 
